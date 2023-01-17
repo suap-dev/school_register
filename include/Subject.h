@@ -1,8 +1,9 @@
 #pragma once
 
+#include <vector>
+
 #include "Register.h"
 #include "Grade.h"
-#include <vector>
 
 namespace SchoolRegister {
 	class Subject {
