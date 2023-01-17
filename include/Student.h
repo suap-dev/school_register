@@ -1,10 +1,11 @@
 #pragma once
 
-#include "Register.h"
-#include "Subject.h"
+#include <vector>
 #include <set>
 #include <map>
-#include <vector>
+
+#include "Register.h"
+#include "Subject.h"
 
 namespace SchoolRegister {
 	class Student {

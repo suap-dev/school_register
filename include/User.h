@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Register.h"
 #include "UserTypes.h"
+#include "Register.h"
 
 namespace SchoolRegister {
 	class User

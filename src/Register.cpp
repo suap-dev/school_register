@@ -1,9 +1,11 @@
 #include "Register.h"
 
-namespace SchoolRegister {
-	std::ostream& operator << (std::ostream& os, const TOPIC s)
+namespace SchoolRegister
+{
+	std::ostream &operator<<(std::ostream &os, const TOPIC s)
 	{
-		switch (s) {
+		switch (s)
+		{
 		case TOPIC::ART:
 			os << "Art";
 			break;
@@ -67,8 +69,10 @@ namespace SchoolRegister {
 		}
 		return os;
 	}
-	std::ostream& operator << (std::ostream& os, const GRADE g) {
-		switch (g) {
+	std::ostream &operator<<(std::ostream &os, const GRADE g)
+	{
+		switch (g)
+		{
 		case GRADE::G10:
 			os << "1.0";
 			break;

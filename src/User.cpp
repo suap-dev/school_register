@@ -1,19 +1,22 @@
 #include "User.h"
 
-namespace SchoolRegister {
-	User::User(ACC_LEVEL level, std::string name):
-		acc_level(level)
+namespace SchoolRegister
+{
+	User::User(ACC_LEVEL level, std::string name) : acc_level(level)
 	{
 		this->name = name;
 		this->name.resize(8);
 	}
+
 	std::string User::getName()
 	{
 		return name;
 	}
+
 	std::string User::getAccLevel()
 	{
-		switch (acc_level) {
+		switch (acc_level)
+		{
 		case ACC_LEVEL::ADMIN:
 			return "Administrator";
 			break;

@@ -1,8 +1,9 @@
-#pragma once 
+#pragma once
+
+#include <vector>
 
 #include "Register.h"
 #include "Student.h"
-#include <vector>
 
 namespace SchoolRegister {
 	struct Class {
