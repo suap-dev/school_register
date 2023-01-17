@@ -1,6 +1,7 @@
 #pragma once
-#include "..\Data\Register.h"
-#include "SR_User_Enums.h"
+
+#include "Register.h"
+#include "UserTypes.h"
 
 namespace SchoolRegister {
 	class User

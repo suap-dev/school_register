@@ -1,4 +1,4 @@
-#include "SR_User.h"
+#include "User.h"
 
 namespace SchoolRegister {
 	User::User(ACC_LEVEL level, std::string name):
